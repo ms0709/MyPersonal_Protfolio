@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohanasundharam</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/23c3ccaec2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2>Mohanasundharam<span style="color: #EB4C37;"> M</span></h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#skills">Skills</a></li> -->
+                    <li><a href="#Projects">Project</a></li>
+                    <li><a href="#intern">Intern</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span style="color: #EB4C37;">Mohanasundharam</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------About----------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                     <img src="/images/about.jpg">
+                </div>
+                 <div class="about-col-2">
+                      <h1 class="sub-title">About Me</h1>
+                      <p>Hello! I'm Mohanasundharam, a dedicated software developer with a talent for bringing ideas to life through coding. My
+                    venture into the realm of programming commenced with a fascination for problem-solving and a dedication to delivering
+                    top-notch software solutions. I excel in facing challenges and consistently pursue avenues to enhance my skills and
+                    broaden my knowledge.</p>
+                        
+                      <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links " onclick="opentab('education')">Education</p>
+                      </div>
+                      <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>Python, Java, C#</li>
+                            <li><span>Web Technologies</span><br>HTML, CSS, and JavaScript, Mudblazor</li>
+                            <li><span>Mobile Application</span><br>Android</li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Iam a Fresher</span><br>Seeking for a Job</li>
+                            <!-- <li><span>Exp 2</span><br>Skill descriptions</li>
+                            <li><span>Exp 3</span><br>Skill descriptions</li> -->
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>School</span><br>Vel’s Vidhyashram mt. hrs. School, Kannamangalam
+                            Tiruvannamalai, Dt.</li>
+                            <li><span>Bachelors</span><br>Sacred Heart College, Tirupattur</li>
+                            <li><span>MCA</span><br>Sacred Heart College, Tirupattur</li>
+                        </ul>
+                      </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+<!-- --------------------Projects----------------- -->
+<div id="Projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="project-list">
+            <div>
+                <i class="fas fa-laptop-code"></i>
+                <h2>College Navigator</h2>
+                <p>"College Navigator" is a web application designed for my undergraduate final year project. Utilizing HTML, Bootstrap,
+                PHP, and MySQL, it helps students find the nearest and best colleges.</p>
+                    <!-- <a href="#">Read more</a> -->
+            </div>
+            <div>
+                <i class="fab fa-android"></i>  
+                <h2>SHC Notice</h2>
+                <p>"SHC Notice" is an Android application developed for my MCA project, serving as a centralized platform for circulating
+                notices within our college community. The app employs XML for frontend design, Java for backend functionality, and
+                Firebase for database management.</p>
+            </div>
+            <!-- <div>
+                <i class="fab fa-aws"></i>
+                <h2>S3 Agent</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Corrupti vitae rem labore obcaecati voluptatem repellat, 
+                    dolores alias, sit quam atque accusantium magni maiores 
+                    ad voluptatum non sint at quasi tempora!</p>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+<!-- --------------------Intern----------------- -->
+
+
+<div id="intern">
+    <div class="container">
+        <h1 class="sub-title">Internship</h1>
+        <div class="intern-list">
+            <div class="work">
+                <img src="images/Karcher.jpg" alt="">
+                <div class="layer">
+                    <!-- <i class="fab fa-aws"></i> -->
+                    <h2>Karcher</h2>
+                    <p>AWS-based S3 agent project
+                    I worked as an intern at Kärcher Manufacturing Company in North America, developing web apps with ASP.NET, AWS, Blazor,
+                    and C#. contributed to significant projects utilizing cloud services and contemporary online technology.
+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --------------------Contact----------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> mohanasundharamms271@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 9360400529</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/mohanasundharam-m07/" ><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/ms0709"><i class="fab fa-github-square"></i></a>
+                    <a href="https://wa.me/919360400529?text=Hello%20there!"><i class="fab fa-whatsapp-square"></i></i></a>
+                </div>
+                <a href="/images/Mohanasundharam Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Mohanasundharam M <i class="fas fa-heart"></i></p>
+    </div>
+</div>
+
+
+    <script>
+
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+
+    </script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+        
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyndOjLQjEUHr0xpYAGzfNgr-EnUkh5xn5fUDCumiayQwEFupFYfs3mnIjekcyUgSCU/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML= "Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html
